@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <TextView 
+        android:id="@+id/aci_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:text="Fragment生命周期\n\n        当一个activity暂停的时候，它里面所有的fragments也同样暂停；当activity销毁的时候，它里面所有的fragment同样也被销毁；然而，当一个activity正在运行（它处于resumed生命周期的时候），我们可以独立的操纵每个fragment执行注入添加和移除它们。"
+        android:background="@drawable/acd_setbar_bg" />
+    
+</LinearLayout>

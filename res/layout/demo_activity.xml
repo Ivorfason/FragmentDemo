@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+ 	<Button 
+ 	    android:id="@+id/aci_click_btn"
+ 	    android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="点我啊"
+    	android:onClick="MyClick"/>
+
+ 	<Button
+ 	    android:id="@+id/aci_noclick_btn"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentTop="true"
+ 	    android:layout_marginLeft="44dp"
+ 	    android:layout_toRightOf="@+id/aci_click_btn"
+ 	    android:text="别点我啊" />
+		
+</RelativeLayout>

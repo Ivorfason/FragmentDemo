@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+   <TextView 
+        android:id="@+id/aci_body_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text=" Fragment在ViewPager中生命周期：\n\n        Viewpager显示Fragment的时候不会仅仅显示展现的那个fragment，而是将前一个，后一个，和正在显示的fragment的生命周期都跑一遍。"
+        android:background="@drawable/acd_setbar_bg" />
+    
+</LinearLayout>
